@@ -1,0 +1,40 @@
+/* 通用 */
+* {
+    margin: 0 auto;
+}
+/*背景图片*/
+.bg{
+    background-size: 1200px 750px;
+    background: url("https://img0.baidu.com/it/u=3468204619,457860515&fm=253&fmt=auto&app=138&f=JPEG?w=700&h=394");
+    height: 100%;
+    overflow: hidden;
+}
+
+/*网站头部板块*/
+.content .titles{
+    font: 700 18px/35px "微软雅黑";
+}
+
+/*相关内容*/
+.knowlg{
+    height: 400px;
+    margin: 20px 0;
+}
+.knowlg ul{
+    height: 400px;
+}
+.knowlg ul li{
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+}
+.knowlg ul li span a{
+    display: inline-block;
+    font: 700 25px "方正舒体";
+    color: darkslategrey;
+    margin: 10px 0;
+}
+.knowlg ul li a img{
+    height: 350px;
+    width: auto;
+}

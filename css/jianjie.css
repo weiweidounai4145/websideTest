@@ -1,0 +1,66 @@
+/* 通用 */
+* {
+    margin: 0 auto;
+}
+
+/*背景图片*/
+.bg {
+    background-size: 1200px 750px;
+    background: url("../images/bg.jpg");
+    height: 100%;
+    overflow: hidden;
+}
+
+/*内容概述*/
+.introduce {
+    margin-top: 50px;
+    /*height: 400px;*/
+}
+
+.introduce-img {
+    float: left;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.introduce-content {
+    /*height: 400px;*/
+    padding-top: 50px;
+}
+
+.introduce-content h3,
+.value-content h3 {
+    color: rgb(5, 39, 20);
+    text-align: center;
+    font: 700 50px '华光彩云_CNKI';
+}
+
+.introduce-text,
+.value-text {
+    display: flex;
+    color: rgb(5, 39, 20);
+    font: 700 30px/50px '华光淡古印_CNKI';
+    text-align: center;
+    margin: 30px 50px 0 50px;
+}
+
+/*研究价值*/
+.value {
+    margin-top: 50px;
+    /*height: 380px;*/
+}
+
+/*.value-img {*/
+/*    float: right;*/
+/*    !*display: flex;*!*/
+/*    width: 400px;*/
+/*    height: 380px;*/
+/*}*/
+.value-text{
+    text-align: left;
+}
+.value-text .lineH{
+    line-height: 20px;
+}

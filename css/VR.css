@@ -1,0 +1,44 @@
+/*背景图片*/
+.bg{
+    background-size: 1200px 750px;
+    background: url("https://img0.baidu.com/it/u=3468204619,457860515&fm=253&fmt=auto&app=138&f=JPEG?w=700&h=394");
+    height: 100%;
+    overflow: hidden;
+}
+/*目录*/
+.catalogue{
+    height: 74px;
+    background-color: rgba(0,0,0,.3);
+}
+
+/*琅嬛福地 悬杪亭 烟雨楼*/
+.fudi{
+    /*margin-top: -80px;*/
+}
+.fudi .fudi-title,
+.xuangchaoting .xuangchaoting-title,
+.yanyvlou .yanyvlou-title,
+.works .zhanshi-title{
+    height: 234px;
+    background: url("https://jx3.xoyo.com/p/zt/2021/10/14/fenliuye/pc/assets/img/xfe-layer-22-004f1dce.png.webp") no-repeat;
+    margin-top: -80px;
+}
+/*.xuangchaoting .xuangchaoting-title{*/
+/*    background: url("../images/悬杪亭.png") no-repeat;*/
+/*}*/
+/*.yanyvlou .yanyvlou-title{*/
+/*    background: url("../images/悬杪亭.png") no-repeat;*/
+/*}*/
+.myvideo video{
+    width: 1200px;
+    height: auto;
+    margin: 0 30px;
+}
+
+/*VR作品展示*/
+.works{
+    /*margin-top: -80px;*/
+}
+/*.works .zhanshi-title{*/
+/*    background: url(../images/成果视频展示.png) no-repeat;*/
+/*}*/
